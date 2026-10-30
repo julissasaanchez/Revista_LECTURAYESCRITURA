@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5E4B3C" />
+      <stop offset="100%" stop-color="#3E3025" />
+    </linearGradient>
+  </defs>
+  <!-- Escudo / Fondo circular editorial -->
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#bgGrad)" stroke="#D8C3A5" stroke-width="2.5" />
+  <!-- Átomo científico (órbitas elípticas y núcleo central) -->
+  <g transform="translate(32, 26)">
+    <ellipse cx="0" cy="0" rx="18" ry="6.8" fill="none" stroke="#D8C3A5" stroke-width="2.2" transform="rotate(-30)" />
+    <ellipse cx="0" cy="0" rx="18" ry="6.8" fill="none" stroke="#D8C3A5" stroke-width="2.2" transform="rotate(30)" />
+    <ellipse cx="0" cy="0" rx="18" ry="6.8" fill="none" stroke="#B89B7A" stroke-width="1.8" transform="rotate(90)" />
+    <circle cx="0" cy="0" r="3.6" fill="#FCFAF7" />
+    <circle cx="-13" cy="-7.5" r="2" fill="#FCFAF7" />
+    <circle cx="13" cy="-7.5" r="2" fill="#FCFAF7" />
+  </g>
+  <!-- Libro / Revista científica abierta en la base -->
+  <path d="M14 48 C20 45, 27 46, 32 49 C37 46, 44 45, 50 48 L50 54 C44 51, 37 52, 32 55 C27 52, 20 51, 14 54 Z" fill="#FCFAF7" stroke="#D8C3A5" stroke-width="1.2" stroke-linejoin="round" />
+  <line x1="32" y1="48.5" x2="32" y2="55" stroke="#5E4B3C" stroke-width="1.6" stroke-linecap="round" />
+</svg>
